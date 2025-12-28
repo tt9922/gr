@@ -34,7 +34,7 @@ jobs:
 
       - name: Build Flet App
         run: |
-          flet build web src/main.py
+          flet build web src/main.py --yes
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
